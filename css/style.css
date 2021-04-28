@@ -18,15 +18,18 @@ body {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 50px;
+    padding: 60px 60px 50px 40px;
     position: static;
-    width: 300px;
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
     margin: 0px 0px;
     background-color: var(--dark);
+    background-image: url(../img/nav-bg.svg);
+    background-size:474.5px 59.02px;
+    background-position: -60px 100px;
+    background-repeat: no-repeat;
 }
 
 #main {
@@ -53,7 +56,10 @@ body {
 }
 
 #logo {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+}
+#logo img{
+    width: 200px;
 }
 
 #nav ol {
