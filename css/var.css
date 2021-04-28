@@ -1,0 +1,12 @@
+/* This is the project stylesheet */
+
+    :root {
+        /* Font */
+        --zh: 'Noto Sans TC', sans-serif;
+        --en: 'hu4';
+        /* Colors */
+        --dark: hsla(234, 53%, 11%, 1);
+        --Medium: hsla(235, 14%, 35%, 1);
+        --High: hsla(187, 76%, 55%, 1);
+        --white: hsla(255, 100%, 100%, 1);
+    }

@@ -1,0 +1,4 @@
+@keyframes bianse {
+  from {color: var(--white);}
+  to {color: var(--High);}
+}
