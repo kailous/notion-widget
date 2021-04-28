@@ -4,16 +4,16 @@
     font-display: swap;
     font-style: normal;
     font-weight: 100;
-    src: url('/fonts/Light/Light.eot');
+    src: url('./fonts/Light/Light.eot');
     /* IE9*/
-    src: url('/fonts/Light/Light.eot?#iefix') format('embedded-opentype'),
+    src: url('./fonts/Light/Light.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/fonts/Light/Light.woff2') format('woff2'),
-        url('/fonts/Light/Light.woff') format('woff'),
+        url('./fonts/Light/Light.woff2') format('woff2'),
+        url('./fonts/Light/Light.woff') format('woff'),
         /* chrome、firefox */
-        url('/fonts/Light/Light.ttf') format('truetype'),
+        url('./fonts/Light/Light.ttf') format('truetype'),
         /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-        url('/fonts/Light/Light.svg#HurmeGeometricSans4-Light') format('svg');
+        url('./fonts/Light/Light.svg#HurmeGeometricSans4-Light') format('svg');
     /* iOS 4.1- */
 }
 
@@ -23,16 +23,16 @@
     font-display: swap;
     font-style: normal;
     font-weight: 200;
-    src: url('/fonts/Regular/Regular.eot');
+    src: url('./fonts/Regular/Regular.eot');
     /* IE9*/
-    src: url('/fonts/Regular/Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('./fonts/Regular/Regular.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/fonts/Regular/Regular.woff2') format('woff2'),
-        url('/fonts/Regular/Regular.woff') format('woff'),
+        url('./fonts/Regular/Regular.woff2') format('woff2'),
+        url('./fonts/Regular/Regular.woff') format('woff'),
         /* chrome、firefox */
-        url('/fonts/Regular/Regular.ttf') format('truetype'),
+        url('./fonts/Regular/Regular.ttf') format('truetype'),
         /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-        url('/fonts/Regular/Regular.svg#HurmeGeometricSans4-Regular') format('svg');
+        url('./fonts/Regular/Regular.svg#HurmeGeometricSans4-Regular') format('svg');
     /* iOS 4.1- */
 }
 
@@ -42,16 +42,16 @@
     font-display: swap;
     font-style: normal;
     font-weight: 300;
-    src: url('/fonts/SemiBold/SemiBold.eot');
+    src: url('./fonts/SemiBold/SemiBold.eot');
     /* IE9*/
-    src: url('/fonts/SemiBold/SemiBold.eot?#iefix') format('embedded-opentype'),
+    src: url('./fonts/SemiBold/SemiBold.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/fonts/SemiBold/SemiBold.woff2') format('woff2'),
-        url('/fonts/SemiBold/SemiBold.woff') format('woff'),
+        url('./fonts/SemiBold/SemiBold.woff2') format('woff2'),
+        url('./fonts/SemiBold/SemiBold.woff') format('woff'),
         /* chrome、firefox */
-        url('/fonts/SemiBold/SemiBold.ttf') format('truetype'),
+        url('./fonts/SemiBold/SemiBold.ttf') format('truetype'),
         /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-        url('/fonts/SemiBold/SemiBold.svg#HurmeGeometricSans4-Light') format('svg');
+        url('./fonts/SemiBold/SemiBold.svg#HurmeGeometricSans4-Light') format('svg');
     /* iOS 4.1- */
 }
 
@@ -61,15 +61,15 @@
     font-display: swap;
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/Black/Black.eot');
+    src: url('./fonts/Black/Black.eot');
     /* IE9*/
-    src: url('/fonts/Black/Black.eot?#iefix') format('embedded-opentype'),
+    src: url('./fonts/Black/Black.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('/fonts/Black/Black.woff2') format('woff2'),
-        url('/fonts/Black/Black.woff') format('woff'),
+        url('./fonts/Black/Black.woff2') format('woff2'),
+        url('./fonts/Black/Black.woff') format('woff'),
         /* chrome、firefox */
-        url('/fonts/Black/Black.ttf') format('truetype'),
+        url('./fonts/Black/Black.ttf') format('truetype'),
         /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-        url('/fonts/Black/Black.svg#HurmeGeometricSans4-Light') format('svg');
+        url('./fonts/Black/Black.svg#HurmeGeometricSans4-Light') format('svg');
     /* iOS 4.1- */
 }
