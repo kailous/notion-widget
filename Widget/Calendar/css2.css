@@ -1,0 +1,180 @@
+        body {
+            font-family: 'Arial', 'Noto Sans SC', sans-serif;
+            background-color: #fff;
+        }
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 100%;
+        }
+
+        button::-moz-focus-inner {
+            border: 0;
+            padding: 0;
+        }
+
+        #calendari {
+            margin: 0 auto;
+            font-size: 14px;
+        }
+
+        table {
+            border-collapse: collapse;
+            table-layout: fixed;
+            background-color: #fff;
+            position: absolute;
+        }
+
+
+        td,
+        th {
+            text-align: center;
+            background-color: #fff;
+        }
+
+        th {
+            padding: 10px;
+        }
+
+        tr:first-child th {
+            font-size: 20px;
+            font-weight: bold;
+            border-left: none;
+            border-top: none;
+        }
+
+        td:last-child,
+        th:last-child {
+            border-right: none;
+        }
+
+        th {
+            background-color: #9b59b6;
+            color: #fff;
+            font-weight: normal;
+        }
+
+        th .any {
+            font-size: 12px;
+            font-weight: normal;
+            display: block;
+            text-shadow: none;
+            color: rgba(0, 0, 0, 0.4);
+            letter-spacing: 0.4em;
+            font-feature-settings: 'tnum'on, 'lnum'on;
+        }
+
+        th .any:before,
+        th .any:after {
+            content: url(img/svg/line_h.svg);
+            margin: 0px 5px;
+        }
+
+        tr:nth-child(2) th {
+            padding: 5px;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        td > span {
+            color: #555;
+            padding: 10px;
+            display: block;
+            font-style: normal;
+            font-weight: 600;
+            transition: border 0.3s ease;
+        }
+
+        td:last-child > span,
+        td:nth-child(1) > span {
+            color: #9b59b6;
+        }
+
+        td.avui > span {
+            font-weight: bold;
+            background-color: #9b59b6;
+            color: #fff;
+            border-radius: 100%;
+        }
+
+        td.fora > span {
+            opacity: 0.2;
+        }
+
+        td > span:hover {
+            background: #a57cb6;
+            color: #fff;
+            border-radius: 100%;
+        }
+
+        .boto-next,
+        .boto-prev {
+            background: rgba(0, 0, 0, 0);
+            border: none;
+            text-shadow: inherit;
+            height: 30px;
+            width: 30px;
+            vertical-align: middle;
+            position: absolute;
+            top: 15px;
+        }
+
+        .boto-next:before,
+        .boto-prev:before {
+            position: inherit;
+            display: block;
+            width: 30px;
+            height: 30px;
+            top: 0;
+            left: 0;
+        }
+
+        .boto-next:before {
+            content: url(img/svg/boto-next.svg);
+        }
+
+        .boto-prev:before {
+            content: url(img/svg/boto-prev.svg);
+        }
+
+        .boto-next {
+            right: 10px;
+            padding-left: 13px;
+        }
+
+        .boto-prev {
+            left: 10px;
+            padding-right: 13px;
+        }
+
+        .boto-next:hover,
+        .boto-prev:hover {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        footer {
+            text-align: center;
+            color: #ddd;
+            font-weight: normal;
+            font-size: 0.8em;
+            padding: 20px;
+        }
+
+        footer a,
+        footer a:link {
+            color: #fff;
+            text-decoration: none;
+        }
